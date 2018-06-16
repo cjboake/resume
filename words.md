@@ -16,7 +16,7 @@ Tooling/Platforms: Unix (OS X, Debian), Git, Spring, BitBucket/GitHub
 
 EXPERIENCE
 ----------
-Express Scripts International,  Software Engineer I                         
+Express Scripts International,  Software Engineer I
 Tampa, FL  April 2017 - Present
 
 Internal Portal/Automation Team
