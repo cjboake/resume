@@ -1,25 +1,40 @@
 \documentclass{my_cv}
  
 \begin{document}
- 
+ \pagenumbering{gobble} 
+
 \name{CJ Boake}
+ \vspace{1mm}
+\websites{cjboake.com \& github.com/cjboake}
+ \vspace{1mm}
+\contact{3012 W De Leon}{Tampa}{FL 33609}{cjboake@me.com}{(727)656--9100}
 
-\contact{3012 W De Leon}{Tampa}{FL 33609}{cjboake@me.com}{(727)--656--9100}
- 
-\section{Education}
-\datedsubsection{University of Tampa}{20011--2016}
- 
-\section{Work}
-\datedsubsection{Express Scripts Int.}{April 2017--Present}
-\workitems
-{Developed new product}
-{Improved productivity by 20\%}
-{Decreased costs by \$10,000}
+\section{Profile}
+{Enthusiastic, well rounded engineer with experience building resilient systems. 
+Obsessive interest in dev tools, language design, and compiler construction.}
 
-\section{Skills}
-
-\begin{tabular}{l l l l}
-    C & Java & Javascript & SQL \\
+\section{Technologies}
+\begin{tabular}{l l l l l}
+    C & Java & Javascript & Spring & x86 Assembly\\
+    SQL & REST & Unix & \LaTeX{} & Git
 \end{tabular}
  
+\section{Work}
+\datedsubsection{Software Engineer I, Express Scripts Int.}{April 2017--Present}
+\workitems{Responsible for client migrations and implementations on to Automated Prior Authorization platform}
+{Built out modifications to business logic for medications dispensation to conform with state and federal laws}
+{Implemented client-facing interface for Insurance Adjusters and internal employees to set themselves as Out Of Office,
+and accordingly built out automated systems to recognize whom it should contact on an in office/out of office basis} 
+
+\section{Projects}
+\datesubsection{C Compiler, \sc{cjcc}}
+\workitems{Scratch-built C compiler without the use of any pre-made Lexer/Parser Generator tools or libraries}
+{Utilizes original data structures for lexing, tokenization, and implementation into Abstract Syntax Tree 
+with a single, memory efficient node suitable for all data types}
+{Emits Intel x86\_64 assembly}
+
+\section{Education}
+\datedsubsection{University of Tampa}{20011--2016}
+B.A. Writing, Poetry Focus
+
 \end{document} 

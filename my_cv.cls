@@ -1,10 +1,10 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{my_cv}[6/6/2013 custom CV class]
+\ProvidesClass{my_cv}[6/16/2018 custom CV class]
 \LoadClass{article}
 \RequirePackage{titlesec}
 
 \titleformat{\section}
-  {\normalsize\scshape\raggedright}
+  {\normalsize\bf\scshape\raggedright}
   {}{0em}
   {}
   [\titlerule]
@@ -14,16 +14,20 @@
   {}{0em}
   {}
   
-  \newcommand{\datedsection}[2]{
-  \section[#1]{#1 \hfill #2}
+\newcommand{\datedsection}[2]{
+ \section[#1]{#1 \small\hfill #2}
 }
 
 \newcommand{\datedsubsection}[2]{
-  \subsection[#1]{#1 \hfill #2}
+ \subsection[#1]{#1 \small\hfill #2}
 }
 
 \newcommand{\name}[1]{
-  \centerline{\Huge{#1}}
+ \centerline{\Huge{#1}}
+}
+
+\newcommand{\websites}[1]{
+ \centerline{\small{#1}} 
 }
 
 \newcommand{\contact}[5]{
