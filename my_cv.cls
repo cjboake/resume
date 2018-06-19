@@ -40,6 +40,15 @@
     \center{ {\normalsize} #4 \hfill {\normalsize} #5}
 }
 
+\newcommand{\workitemsfour}[4]{
+    \begin{itemize}
+    \small\item #1
+    \small\item #2
+    \small\item #3
+    \small\item #4
+    \end{itemize}
+}
+
 \newcommand{\workitems}[3]{
     \begin{itemize}
     \small\item #1
