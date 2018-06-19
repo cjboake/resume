@@ -42,8 +42,21 @@
 
 \newcommand{\workitems}[3]{
     \begin{itemize}
-    \item #1
-    \item #2
-    \item #3
+    \small\item #1
+    \small\item #2
+    \small\item #3
+    \end{itemize}
+}
+
+\newcommand{\workitem}[2]{
+    \begin{itemize}
+    \small\item #1
+    \small\item #2
+    \end{itemize}
+}
+
+\newcommand{\workite}[1]{
+    \begin{itemize}
+    \small\item #1
     \end{itemize}
 }
